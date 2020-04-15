@@ -17,6 +17,24 @@ ReactDOM.render(<div>
                 <li>Item 2</li>
                 <li>Item 3</li>
                 </ul>
-                </div>, document.getElementbyId("root"))
+                </div>, document.getElementbyId("root"));
+
+function() MyApp {
+  return (
+    <div>
+    <h1>Jess White</h1>
+    <p>
+    This is a little blurb about me.
+    </p>
+    <ul>
+    <li>Toronto</li>
+    <li>Bangkok</li>
+    <li>Surinam</li>
+    </ul>
+    </div> 
+  ) 
+};
+
+ReactDOM.render(<MyApp/>, document.getElementById("root"))
 
 serviceWorker.unregister();
